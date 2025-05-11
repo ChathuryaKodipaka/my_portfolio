@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 174 84% 36%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 174 84% 36%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 174 84% 36%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 174 84% 36%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+}
+
+/* Custom colors for the portfolio - eye-friendly, not too vibrant */
+:root {
+  --teal-50: #e6f7f7;
+  --teal-100: #c2e9e9;
+  --teal-400: #38b2c8;
+  --teal-500: #2a9aad;
+  --teal-600: #208797;
+  --teal-700: #1a7383;
+
+  --lavender-50: #f3f0f9;
+  --lavender-100: #e5dff0;
+  --lavender-400: #a99bd8;
+  --lavender-500: #9889cc;
+  --lavender-600: #8778c0;
+  --lavender-700: #7668b4;
+
+  --mint-50: #edf9f3;
+  --mint-100: #d7f0e2;
+  --mint-400: #a8e6cf;
+  --mint-500: #97ddc0;
+  --mint-600: #86d4b1;
+  --mint-700: #75cba2;
+
+  --blue-50: #edf5fb;
+  --blue-100: #d6e8f5;
+  --blue-400: #7cb9e8;
+  --blue-500: #5da8e0;
+  --blue-600: #4a97d3;
+  --blue-700: #3886c6;
+}
+
+.dark {
+  --teal-50: #0a2228;
+  --teal-100: #143e47;
+  --teal-400: #38b2c8;
+  --teal-500: #2a9aad;
+  --teal-600: #208797;
+  --teal-700: #1a7383;
+
+  --lavender-50: #1a1726;
+  --lavender-100: #2e2a3d;
+  --lavender-400: #a99bd8;
+  --lavender-500: #9889cc;
+  --lavender-600: #8778c0;
+  --lavender-700: #7668b4;
+
+  --mint-50: #0f2218;
+  --mint-100: #1b3e2c;
+  --mint-400: #a8e6cf;
+  --mint-500: #97ddc0;
+  --mint-600: #86d4b1;
+  --mint-700: #75cba2;
+
+  --blue-50: #0f1c2a;
+  --blue-100: #1a334d;
+  --blue-400: #7cb9e8;
+  --blue-500: #5da8e0;
+  --blue-600: #4a97d3;
+  --blue-700: #3886c6;
+}
+
+/* Smooth transitions for dark mode */
+.dark body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Gradient text animation - subtle, not glittery */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-gradient-to-r {
+  background-size: 200% auto;
+  animation: gradient 12s ease infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2e9e9;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #208797;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38b2c8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #2a9aad;
+}
