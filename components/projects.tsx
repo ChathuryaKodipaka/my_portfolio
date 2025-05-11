@@ -22,7 +22,7 @@ export default function Projects() {
         "End-to-end ETL pipeline and dashboard reporting solution for the AdventureWorks dataset, providing business insights and performance metrics.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
       techStack: ["Azure ADF", "Databricks", "Synapse", "Power BI"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/ChathuryaKodipaka/UMBC-DATA606-Capstone",
       demoUrl: "#",
       longDescription:
         "This project involved building a comprehensive data pipeline for the AdventureWorks dataset using Azure Data Factory, Databricks, and Synapse Analytics. The pipeline extracts data from various sources, transforms it using Spark in Databricks, and loads it into a data warehouse in Synapse. The final step involves creating interactive Power BI dashboards that provide business insights and performance metrics for sales, inventory, and customer behavior.",

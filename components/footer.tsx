@@ -87,9 +87,8 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-slate-600 dark:text-slate-400 flex items-center">
-              © {currentYear} Chathurya Goud Kodipaka. Made with <Heart className="h-4 w-4 text-rose-500 mx-1" /> and
-              data
-            </p>
+              © {currentYear} Chathurya Goud Kodipaka. 
+                          </p>
           </div>
         </div>
       </div>

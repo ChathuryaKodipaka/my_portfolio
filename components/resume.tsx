@@ -75,16 +75,7 @@ export default function Resume() {
                       View Resume
                     </a>
                   </Button>
-                  <Button
-                    variant="outline"
-                    className="border-teal-500 text-teal-500 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-slate-800 rounded-full"
-                    asChild
-                  >
-                    <a href={resumeLink} target="_blank" rel="noopener noreferrer" download>
-                      <Download className="mr-2 h-4 w-4" />
-                      Download
-                    </a>
-                  </Button>
+                 
                 </div>
               </div>
 
@@ -112,20 +103,7 @@ export default function Resume() {
                 ))}
               </div>
 
-              <div className="mt-10 pt-6 border-t border-slate-200 dark:border-slate-700 text-center">
-                <p className="text-slate-600 dark:text-slate-400 mb-4">
-                  For a complete overview of my qualifications, experience, and skills, please download my full resume.
-                </p>
-                <Button
-                  className="bg-teal-500 hover:bg-teal-600 dark:bg-teal-500 dark:hover:bg-teal-600 rounded-full"
-                  asChild
-                >
-                  <a href={resumeLink} target="_blank" rel="noopener noreferrer">
-                    <Download className="mr-2 h-4 w-4" />
-                    Download Full Resume
-                  </a>
-                </Button>
-              </div>
+             
             </CardContent>
           </Card>
         </div>
