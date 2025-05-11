@@ -87,8 +87,11 @@ export default function Hero() {
             <div className="absolute inset-2 rounded-full bg-white dark:bg-gray-900 overflow-hidden shadow-lg">
               {/* Replace with actual profile image */}
               <div className="w-full h-full rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-400 dark:text-slate-500 hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-teal-600/20 hover:border-2 hover:border-teal-600">
-              <a href='https://postimg.cc/SY2pYzkS' target='_blank'><img src='https://i.postimg.cc/qqQBY8F3/IMG-4838.jpg' alt='IMG-4838' className="w-full h-full object-cover"/></a>              
-              </div>
+              <img 
+  src='https://i.postimg.cc/qqQBY8F3/IMG-4838.jpg' 
+  alt='IMG-4838' 
+  className="w-full h-full object-cover"
+/>              </div>
             </div>
           </motion.div>
         </div>
