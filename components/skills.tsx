@@ -1,7 +1,16 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Code, BarChart, Cloud, GitBranch, BrainCircuit, LineChart } from "lucide-react"
+import {
+  Code,
+  BarChart,
+  Cloud,
+  GitBranch,
+  BrainCircuit,
+  LineChart,
+  Sparkles,
+  Database
+} from "lucide-react"
 import { useState } from "react"
 
 export default function Skills() {
@@ -9,91 +18,54 @@ export default function Skills() {
 
   const skillCategories = [
     {
-    name: "Languages",
-    icon: <Code className="h-6 w-6" />,
-    skills: ["Python", "SQL", "R", "SAS", "Java"],
-    color: "teal",
-  },
-  {
-    name: "ML/AI",
-    icon: <BrainCircuit className="h-6 w-6" />,
-    skills: ["PyTorch", "TensorFlow", "LangChain", "Hugging Face", "scikit-learn", "ResNet", "OpenCV", "Streamlit"],
-    color: "lavender",
-  },
-  {
-    name: "GenAI & RAG",
-    icon: <Sparkles className="h-6 w-6" />, // Optional custom icon
-    skills: ["LangChain", "FAISS", "LangGraph", "CrewAI", "OpenAI"],
-    color: "fuchsia",
-  },
-  {
-    name: "BI Tools",
-    icon: <BarChart className="h-6 w-6" />,
-    skills: ["Power BI", "Tableau", "Looker Studio", "Metabase"],
-    color: "mint",
-  },
-  {
-    name: "Cloud & Data",
-    icon: <Cloud className="h-6 w-6" />,
-    skills: ["Azure", "Databricks", "Fabric", "Data Lake", "Synapse", "Azure ADF", "Snowflake"],
-    color: "blue",
-  },
-  {
-    name: "Data Engineering",
-    icon: <Database className="h-6 w-6" />,
-    skills: ["PySpark", "Spark", "Airflow", "SQL Pipelines", "PostgreSQL", "MongoDB"],
-    color: "indigo",
-  },
-  {
-    name: "Statistics",
-    icon: <LineChart className="h-6 w-6" />,
-    skills: ["Bayesian Analysis", "Hypothesis Testing", "Regression", "Time Series", "Survival Analysis", "A/B Testing"],
-    color: "rose",
-  },
-  {
-    name: "PM Tools",
-    icon: <GitBranch className="h-6 w-6" />,
-    skills: ["JIRA", "Confluence", "Git", "VS Code", "GitHub Actions"],
-    color: "amber",
-  },
-]
-    // {
-    //   name: "Languages",
-    //   icon: <Code className="h-6 w-6" />,
-    //   skills: ["Python", "SQL", "R", "SAS", "Java"],
-    //   color: "teal",
-    // },
-    // {
-    //   name: "ML/AI",
-    //   icon: <BrainCircuit className="h-6 w-6" />,
-    //   skills: ["PyTorch", "TensorFlow", "LangChain", "Hugging Face", "scikit-learn"],
-    //   color: "lavender",
-    // },
-    // {
-    //   name: "BI Tools",
-    //   icon: <BarChart className="h-6 w-6" />,
-    //   skills: ["Power BI", "Tableau", "Looker Studio", "Metabase"],
-    //   color: "mint",
-    // },
-    // {
-    //   name: "Cloud",
-    //   icon: <Cloud className="h-6 w-6" />,
-    //   skills: ["Azure", "Databricks", "Fabric", "Data Lake", "Synapse"],
-    //   color: "blue",
-    // },
-    // {
-    //   name: "PM Tools",
-    //   icon: <GitBranch className="h-6 w-6" />,
-    //   skills: ["JIRA", "Confluence", "Git", "VS Code"],
-    //   color: "amber",
-    // },
-    // {
-    //   name: "Statistics",
-    //   icon: <LineChart className="h-6 w-6" />,
-    //   skills: ["Bayesian Analysis", "Hypothesis Testing", "Regression", "Time Series"],
-    //   color: "rose",
-    // },
-
+      name: "Languages",
+      icon: <Code className="h-6 w-6" />,
+      skills: ["Python", "SQL", "R", "SAS", "Java"],
+      color: "teal",
+    },
+    {
+      name: "ML/AI",
+      icon: <BrainCircuit className="h-6 w-6" />,
+      skills: ["PyTorch", "TensorFlow", "LangChain", "Hugging Face", "scikit-learn", "ResNet", "OpenCV", "Streamlit"],
+      color: "lavender",
+    },
+    {
+      name: "GenAI & RAG",
+      icon: <Sparkles className="h-6 w-6" />,
+      skills: ["LangChain", "FAISS", "LangGraph", "CrewAI", "OpenAI"],
+      color: "fuchsia",
+    },
+    {
+      name: "BI Tools",
+      icon: <BarChart className="h-6 w-6" />,
+      skills: ["Power BI", "Tableau", "Looker Studio", "Metabase"],
+      color: "mint",
+    },
+    {
+      name: "Cloud & Data",
+      icon: <Cloud className="h-6 w-6" />,
+      skills: ["Azure", "Databricks", "Fabric", "Data Lake", "Synapse", "Azure ADF", "Snowflake"],
+      color: "blue",
+    },
+    {
+      name: "Data Engineering",
+      icon: <Database className="h-6 w-6" />,
+      skills: ["PySpark", "Spark", "Airflow", "SQL Pipelines", "PostgreSQL", "MongoDB"],
+      color: "indigo",
+    },
+    {
+      name: "Statistics",
+      icon: <LineChart className="h-6 w-6" />,
+      skills: ["Bayesian Analysis", "Hypothesis Testing", "Regression", "Time Series", "Survival Analysis", "A/B Testing"],
+      color: "rose",
+    },
+    {
+      name: "PM Tools",
+      icon: <GitBranch className="h-6 w-6" />,
+      skills: ["JIRA", "Confluence", "Git", "VS Code", "GitHub Actions"],
+      color: "amber",
+    },
+  ]
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -153,6 +125,20 @@ export default function Skills() {
         text: "text-rose-600 dark:text-rose-400",
         border: "border-rose-200 dark:border-rose-800",
         activeBg: "bg-rose-100 dark:bg-slate-700",
+      },
+      fuchsia: {
+        bg: "bg-fuchsia-50 dark:bg-slate-800/80",
+        hoverBg: "hover:bg-fuchsia-100 dark:hover:bg-slate-800",
+        text: "text-fuchsia-600 dark:text-fuchsia-400",
+        border: "border-fuchsia-200 dark:border-fuchsia-800",
+        activeBg: "bg-fuchsia-100 dark:bg-slate-700",
+      },
+      indigo: {
+        bg: "bg-indigo-50 dark:bg-slate-800/80",
+        hoverBg: "hover:bg-indigo-100 dark:hover:bg-slate-800",
+        text: "text-indigo-600 dark:text-indigo-400",
+        border: "border-indigo-200 dark:border-indigo-800",
+        activeBg: "bg-indigo-100 dark:bg-slate-700",
       },
     }
 
@@ -215,7 +201,6 @@ export default function Skills() {
           ))}
         </motion.div>
 
-        {/* Skill proficiency visualization */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
