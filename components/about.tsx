@@ -61,7 +61,7 @@ export default function About() {
                   </div>
                   <h4 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2 text-slate-800 dark:text-slate-200">Data Science</h4>
                   <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-                    End-to-end data pipelines, ML models, and insights generation
+                      End-to-end data pipelines, cloud computing, ML models, dashboards, deep learning, GenAI workflows, and agentic AI systems.
                   </p>
                 </CardContent>
               </Card>
@@ -73,7 +73,7 @@ export default function About() {
                   </div>
                   <h4 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2 text-slate-800 dark:text-slate-200">Biostatistics</h4>
                   <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-                    Clinical trial analysis, Bayesian modeling, and statistical consulting
+                    Clinical trial analytics, Bayesian and frequentist modeling, survival analysis, and applied epidemiology.
                   </p>
                 </CardContent>
               </Card>
@@ -84,7 +84,8 @@ export default function About() {
                     <Code className="h-6 w-6 sm:h-8 sm:w-8 text-mint-600 dark:text-mint-400" />
                   </div>
                   <h4 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2 text-slate-800 dark:text-slate-200">Development</h4>
-                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">Python, R, SQL, and cloud-based data solutions</p>
+                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">Python, R, SQL, and cloud-native solutions for data engineering, automation, and API-based workflows.
+                  </p>
                 </CardContent>
               </Card>
 
@@ -95,7 +96,7 @@ export default function About() {
                   </div>
                   <h4 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2 text-slate-800 dark:text-slate-200">Social Impact</h4>
                   <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-                    Data-driven solutions for community and healthcare challenges
+                    Data-driven systems that empower communities, improve access to resources, and support equity in healthcare and beyond.
                   </p>
                 </CardContent>
               </Card>
