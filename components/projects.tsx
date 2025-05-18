@@ -16,19 +16,32 @@ import {
 
 export default function Projects() {
   const projects = [
-    {
-      title: "AdventureWorks Data Pipeline",
-      description:
-        "End-to-end ETL pipeline and dashboard reporting solution for the AdventureWorks dataset, providing business insights and performance metrics.",
-      image: "https://www.verywellmind.com/thmb/NUVJDwCLG7SVbtC000SeufXGYys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/an-overview-of-the-types-of-emotions-4163976-abaafd59e7214706b7cd6326d0dd8257.png",
+ {
+  title: "Facial Emotion Detection",
+  description:
+    "Real-time facial emotion recognition system using deep learning and computer vision, deployed with a webcam-enabled interface.",
+  image: "https://www.verywellmind.com/thmb/NUVJDwCLG7SVbtC000SeufXGYys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/an-overview-of-the-types-of-emotions-4163976-abaafd59e7214706b7cd6326d0dd8257.png",
+  techStack: ["Keras", "TensorFlow", "ResNet", "OpenCV", "Streamlit"],
+  githubUrl: "https://github.com/ChathuryaKodipaka/UMBC-DATA606-Capstone", 
+  demoUrl: "https://umbc-data606-capstone-yb4kp9hcsbb7glkhhfarul.streamlit.app/",
+  longDescription:
+    "Built a convolutional neural network (CNN) model trained on the FER-2013 dataset to classify facial emotions in real time. Enhanced accuracy through data augmentation, batch normalization, and ResNet fine-tuning. Integrated OpenCV for face detection and deployed the model using Streamlit for a webcam-based live inference interface."
+},
+
+    
+    // {
+    //   title: "AdventureWorks Data Pipeline",
+    //   description:
+    //     "End-to-end ETL pipeline and dashboard reporting solution for the AdventureWorks dataset, providing business insights and performance metrics.",
+    //   image: "https://www.verywellmind.com/thmb/NUVJDwCLG7SVbtC000SeufXGYys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/an-overview-of-the-types-of-emotions-4163976-abaafd59e7214706b7cd6326d0dd8257.png",
         
-        // "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-      techStack: ["Azure ADF", "Databricks", "Synapse", "Power BI"],
-      githubUrl: "https://github.com/ChathuryaKodipaka/UMBC-DATA606-Capstone",
-      demoUrl: "#",
-      longDescription:
-        "This project involved building a comprehensive data pipeline for the AdventureWorks dataset using Azure Data Factory, Databricks, and Synapse Analytics. The pipeline extracts data from various sources, transforms it using Spark in Databricks, and loads it into a data warehouse in Synapse. The final step involves creating interactive Power BI dashboards that provide business insights and performance metrics for sales, inventory, and customer behavior.",
-    },
+    //     // "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    //   techStack: ["Azure ADF", "Databricks", "Synapse", "Power BI"],
+    //   githubUrl: "https://github.com/ChathuryaKodipaka/UMBC-DATA606-Capstone",
+    //   demoUrl: "#",
+    //   longDescription:
+    //     "This project involved building a comprehensive data pipeline for the AdventureWorks dataset using Azure Data Factory, Databricks, and Synapse Analytics. The pipeline extracts data from various sources, transforms it using Spark in Databricks, and loads it into a data warehouse in Synapse. The final step involves creating interactive Power BI dashboards that provide business insights and performance metrics for sales, inventory, and customer behavior.",
+    // },
     {
       title: "GenAI Medical Chatbot",
       description:
