@@ -211,11 +211,11 @@ export default function Skills() {
           <h3 className="text-xl font-semibold mb-6 text-center text-slate-800 dark:text-slate-200">Proficiency</h3>
           <div className="space-y-4">
             {[
-              { name: "Data Analysis", level: 95 },
-              { name: "Machine Learning", level: 85 },
+              { name: "Data Analysis", level: 90 },
+              { name: "Machine Learning", level: 89 },
               { name: "Statistical Modeling & Inference", level: 90 },
-              { name: "BI & Data Visualization", level: 80 },
-              { name: "Cloud Computing", level: 85 },
+              { name: "BI & Data Visualization", level: 87 },
+              { name: "Cloud Computing", level: 88 },
               { name: "ETL & Data Pipelines", level: 85 },
             ].map((skill, index) => (
               <div key={index} className="space-y-2">
