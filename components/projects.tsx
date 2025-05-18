@@ -20,7 +20,9 @@ export default function Projects() {
       title: "AdventureWorks Data Pipeline",
       description:
         "End-to-end ETL pipeline and dashboard reporting solution for the AdventureWorks dataset, providing business insights and performance metrics.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+      image: "https://www.verywellmind.com/thmb/NUVJDwCLG7SVbtC000SeufXGYys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/an-overview-of-the-types-of-emotions-4163976-abaafd59e7214706b7cd6326d0dd8257.png",
+        
+        // "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
       techStack: ["Azure ADF", "Databricks", "Synapse", "Power BI"],
       githubUrl: "https://github.com/ChathuryaKodipaka/UMBC-DATA606-Capstone",
       demoUrl: "#",
