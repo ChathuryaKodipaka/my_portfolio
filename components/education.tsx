@@ -11,14 +11,14 @@ export default function Education() {
       institution: "University of Maryland, Baltimore County",
       year: "2024",
       description:
-        "Focused on machine learning, data engineering, and AI applications in healthcare and social services.",
+        "Focused on machine learning, AI, data engineering, and cloud-based analytics. Emphasized project-based learning, real-world case studies, and the application of modern data science tools to solve complex challenges in public systems and social contexts.",
     },
     {
       degree: "M.Sc. in Biostatistics",
       institution: "Manipal Academy of Higher Education",
       year: "2022",
       description:
-        "Specialized in clinical trial design, statistical analysis, and Bayesian modeling for healthcare applications.",
+        "Focused on advanced statistical methods, clinical trial design, and epidemiological modeling. Developed expertise in SAS, R, and Bayesian approaches for health data analysis and regulatory reporting in clinical research.",
     },
   ]
 
