@@ -37,14 +37,14 @@ export default function About() {
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 mb-4 sm:mb-5 leading-relaxed">
               I'm a Data Scientist with dual expertise in Biostatistics and Applied Data Science, passionate about
               leveraging data to drive meaningful impact in healthcare and communities.
+              I'm a data scientist with a dual background in Biostatistics and Applied Data Science, passionate about designing solutions that bridge data and impact. My focus is on building tools, dashboards, and models that enable real action.I bring both technical rigor and empathy to every project.
+
             </p>
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 mb-4 sm:mb-5 leading-relaxed">
-              With experience from clinical trials at GSK to developing reporting pipelines for underserved communities,
-              I bridge the gap between technical expertise and real-world applications.
+              For me, data science is more than just models and metrics; it's a way to lift barriers, tell real stories, and spark meaningful change.
             </p>
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-              I'm currently volunteering with CSA, where I develop reporting pipelines and Power BI dashboards that help
-              deliver services to those who need them most.
+              I’m volunteering with the Center for Societal Aspiration (CSA), where I help build Power BI dashboards and reporting databases that serve vulnerable populations — connecting people to essential resources like food, housing, and healthcare. 
             </p>
           </motion.div>
 
