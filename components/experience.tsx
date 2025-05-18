@@ -11,7 +11,7 @@ export default function Experience() {
       company: "CSA",
       period: "May 2025 – Present",
       description:
-        "Developing reporting pipelines and Power BI dashboards for underserved communities. Creating data-driven solutions to optimize resource allocation and service delivery.",
+        " Developing data reporting pipelines and Power BI dashboards for the Humax MVP platform, designed to connect underserved populations with essential services. Built SQL-driven systems to monitor user engagement, resource demand, and service access trends. Collaborated in an agile environment to translate project KPIs into actionable metrics and reporting architecture for stakeholders across healthcare and community sectors.",
       skills: ["Power BI", "Python", "Azure", "Data Pipeline"],
     },
     {
@@ -19,7 +19,7 @@ export default function Experience() {
       company: "UMBC",
       period: "Jan 2024 – Dec 2024",
       description:
-        "Provided statistical and mathematical guidance to undergraduate students. Developed learning materials and conducted workshops on data analysis techniques.",
+        "Transformed math tutoring into a data-informed support system for school students. Created Excel dashboards to monitor academic progress, identify learning gaps, and inform intervention strategies. Collaborated with academic advisors to align tutoring with curriculum goals, and used statistical methods to evaluate student improvement and personalize learning plans.",
       skills: ["Statistics", "R", "Teaching", "Data Analysis"],
     },
     {
@@ -27,7 +27,7 @@ export default function Experience() {
       company: "GSK",
       period: "Jan 2022 – Jun 2022",
       description:
-        "Implemented Bayesian modeling techniques for clinical trial analysis. Worked with SDTM/ADaM standards for clinical data management and analysis.",
+        "Contributed to Phase II clinical trials by implementing Bayesian modeling techniques to support dose-response optimization. Prepared and validated SDTM and ADaM datasets to ensure CDISC compliance for regulatory submission. Built predictive models in R to analyze and visualize trial progression. Generated statistical outputs and TLFs using SAS for internal review and data-driven decision-making.",
       skills: ["Bayesian Statistics", "SAS", "Clinical Trials", "SDTM/ADaM"],
     },
     {
@@ -35,7 +35,7 @@ export default function Experience() {
       company: "MAHE",
       period: "Oct 2020 – Dec 2021",
       description:
-        "Provided statistical consulting for research projects across medical departments. Designed study protocols and performed power analysis for clinical studies.",
+        "Provided statistical consulting for research projects across medical departments. Consulted on experimental design, protocol development, and data analysis for clinical research teams. Designed study protocols and performed power analysis, regression modeling, and interpreted results.",
       skills: ["Study Design", "Power Analysis", "R", "Statistical Consulting"],
     },
   ]
