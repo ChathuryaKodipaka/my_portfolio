@@ -51,7 +51,7 @@ export default function Hero() {
               Chathurya Goud <span className="text-teal-600 dark:text-teal-400">Kodipaka</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 font-light leading-relaxed">
-              Turning Data into Action – From Clinical Trials to Community Impact
+              I build data science solutions that turn data into decisions and insights into outcome
             </p>
             <div className="flex flex-wrap gap-3 sm:gap-4 justify-center md:justify-start">
               <Button onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
