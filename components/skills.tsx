@@ -8,44 +8,7 @@ export default function Skills() {
   const [activeCategory, setActiveCategory] = useState(null)
 
   const skillCategories = [
-    // {
-    //   name: "Languages",
-    //   icon: <Code className="h-6 w-6" />,
-    //   skills: ["Python", "SQL", "R", "SAS", "Java"],
-    //   color: "teal",
-    // },
-    // {
-    //   name: "ML/AI",
-    //   icon: <BrainCircuit className="h-6 w-6" />,
-    //   skills: ["PyTorch", "TensorFlow", "LangChain", "Hugging Face", "scikit-learn"],
-    //   color: "lavender",
-    // },
-    // {
-    //   name: "BI Tools",
-    //   icon: <BarChart className="h-6 w-6" />,
-    //   skills: ["Power BI", "Tableau", "Looker Studio", "Metabase"],
-    //   color: "mint",
-    // },
-    // {
-    //   name: "Cloud",
-    //   icon: <Cloud className="h-6 w-6" />,
-    //   skills: ["Azure", "Databricks", "Fabric", "Data Lake", "Synapse"],
-    //   color: "blue",
-    // },
-    // {
-    //   name: "PM Tools",
-    //   icon: <GitBranch className="h-6 w-6" />,
-    //   skills: ["JIRA", "Confluence", "Git", "VS Code"],
-    //   color: "amber",
-    // },
-    // {
-    //   name: "Statistics",
-    //   icon: <LineChart className="h-6 w-6" />,
-    //   skills: ["Bayesian Analysis", "Hypothesis Testing", "Regression", "Time Series"],
-    //   color: "rose",
-    // },
-    const skills = [
-  {
+    {
     name: "Languages",
     icon: <Code className="h-6 w-6" />,
     skills: ["Python", "SQL", "R", "SAS", "Java"],
@@ -92,10 +55,45 @@ export default function Skills() {
     icon: <GitBranch className="h-6 w-6" />,
     skills: ["JIRA", "Confluence", "Git", "VS Code", "GitHub Actions"],
     color: "amber",
-  }
-];
+  },
+]
+    // {
+    //   name: "Languages",
+    //   icon: <Code className="h-6 w-6" />,
+    //   skills: ["Python", "SQL", "R", "SAS", "Java"],
+    //   color: "teal",
+    // },
+    // {
+    //   name: "ML/AI",
+    //   icon: <BrainCircuit className="h-6 w-6" />,
+    //   skills: ["PyTorch", "TensorFlow", "LangChain", "Hugging Face", "scikit-learn"],
+    //   color: "lavender",
+    // },
+    // {
+    //   name: "BI Tools",
+    //   icon: <BarChart className="h-6 w-6" />,
+    //   skills: ["Power BI", "Tableau", "Looker Studio", "Metabase"],
+    //   color: "mint",
+    // },
+    // {
+    //   name: "Cloud",
+    //   icon: <Cloud className="h-6 w-6" />,
+    //   skills: ["Azure", "Databricks", "Fabric", "Data Lake", "Synapse"],
+    //   color: "blue",
+    // },
+    // {
+    //   name: "PM Tools",
+    //   icon: <GitBranch className="h-6 w-6" />,
+    //   skills: ["JIRA", "Confluence", "Git", "VS Code"],
+    //   color: "amber",
+    // },
+    // {
+    //   name: "Statistics",
+    //   icon: <LineChart className="h-6 w-6" />,
+    //   skills: ["Bayesian Analysis", "Hypothesis Testing", "Regression", "Time Series"],
+    //   color: "rose",
+    // },
 
-  ]
 
   const containerVariants = {
     hidden: { opacity: 0 },
